@@ -1,0 +1,20 @@
+{
+  "name": "heightGroup",
+  "version": "1.0.0",
+  "description": "A small JavaScript helper for matching the heights of grouped elements",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "npm install && ./node_modules/webpack/bin/webpack.js"
+  },
+  "author": "@sambeevors",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  }
+}
